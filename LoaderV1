@@ -158,3 +158,14 @@ TextLabel.TextSize = 20.000
 UICorner_7.Parent = TextLabel
 
 UICorner_8.Parent = Main
+
+ game.StarterGui:SetCore("SendNotification", {
+Title = "Bun's Loader";
+Text = "Welcome";
+Icon = "rbxassetid://2904398990";
+Duration = 0.8;
+})
+local sound = Instance.new("Sound", game.Workspace)
+sound.SoundId = "rbxassetid://2432378456"
+sound:Play()
+print("play", sound.Playing, sound.TimePosition)
