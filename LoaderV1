@@ -1,4 +1,4 @@
---Creds: BunBun.#0001
+--Creds BunBun.#0001
 
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
@@ -150,10 +150,10 @@ TextLabel.Parent = Main
 TextLabel.BackgroundColor3 = Color3.fromRGB(130, 170, 255)
 TextLabel.Position = UDim2.new(0.0359484591, 0, 0.0580587946, 0)
 TextLabel.Size = UDim2.new(0, 306, 0, 38)
-TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Font = Enum.Font.GothamBold
 TextLabel.Text = "Bun's Script loader"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.TextSize = 14.000
+TextLabel.TextSize = 20.000
 
 UICorner_7.Parent = TextLabel
 
